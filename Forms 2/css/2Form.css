@@ -1,0 +1,99 @@
+form {
+    width: 570px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    background: url(..//img/bg.png);
+    border: 1px solid black;
+}
+
+.text1,
+.text2,
+.checkbox,
+.select,
+.radio,
+.submit {
+    padding: 0px 130px;
+}
+
+.text1 {
+    padding-top: 28px;
+}
+
+.text2,
+.select {
+    padding-top: 15px;
+}
+
+.field:focus,
+.focus:focus {
+    background: #FFFACD;
+}
+
+.field,
+.focus {
+    width: 308px;
+    height: 26px;
+    border: 1px solid #c6dade;
+    border-radius: 3px;
+}
+
+.field {
+    box-shadow: 0 1px 1px rgba(198, 218, 222, 0.5);
+}
+
+.focus {
+    box-shadow: 0px 0px 2px 1px rgba(198, 218, 222, 0.5);
+}
+
+.option {
+    box-shadow: 0 1px 1px rgba(198, 218, 222, 0.5);
+}
+
+.option {
+    width: 310px;
+    height: 30px;
+    border: 1px solid #c6dade;
+    border-radius: 3px;
+}
+
+section {
+    height: 86px;
+}
+
+/* Как выровнять флажки вертикально по центру? */
+.checkbox,
+.radio {
+    height: 50%;
+}
+
+.submit {
+    padding-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1,
+.button2 {
+    width: 150px;
+    height: 35px;
+    border: 1px solid #b7d6df;
+}
+
+.button1 {
+    background: linear-gradient(to bottom, #f3fbfc 0%,#cbebff 47%,#d1edf4 100%);
+}
+
+.button1:hover {
+    background: linear-gradient(to bottom, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%);
+    cursor: pointer;
+}
+
+.button2 {
+    background: linear-gradient(to top, #f3fbfc 0%,#cbebff 47%,#d1edf4 100%);
+}
+
+.button2:hover {
+    background: linear-gradient(to top, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%);
+    cursor: pointer;
+}
